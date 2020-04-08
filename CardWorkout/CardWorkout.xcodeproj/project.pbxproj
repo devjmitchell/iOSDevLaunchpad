@@ -13,6 +13,7 @@
 		D3365E81243CD993004FD44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3365E80243CD993004FD44A /* Assets.xcassets */; };
 		D3365E84243CD993004FD44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3365E82243CD993004FD44A /* LaunchScreen.storyboard */; };
 		D3365E8C243CDA08004FD44A /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3365E8B243CDA08004FD44A /* CardSelectionVC.swift */; };
+		D3FC36AF243E23A000D000FA /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC36AE243E23A000D000FA /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3365E83243CD993004FD44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3365E85243CD993004FD44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3365E8B243CDA08004FD44A /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		D3FC36AE243E23A000D000FA /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D3365E77243CD993004FD44A /* AppDelegate.swift */,
 				D3365E79243CD993004FD44A /* SceneDelegate.swift */,
 				D3365E8B243CDA08004FD44A /* CardSelectionVC.swift */,
+				D3FC36AE243E23A000D000FA /* Deck.swift */,
 				D3365E7D243CD993004FD44A /* Main.storyboard */,
 				D3365E80243CD993004FD44A /* Assets.xcassets */,
 				D3365E82243CD993004FD44A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FC36AF243E23A000D000FA /* Deck.swift in Sources */,
 				D3365E78243CD993004FD44A /* AppDelegate.swift in Sources */,
 				D3365E7A243CD993004FD44A /* SceneDelegate.swift in Sources */,
 				D3365E8C243CDA08004FD44A /* CardSelectionVC.swift in Sources */,
