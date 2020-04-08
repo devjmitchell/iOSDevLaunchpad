@@ -12,6 +12,7 @@
 		D3231D40243E29B0005F787F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3231D3F243E29B0005F787F /* Assets.xcassets */; };
 		D3231D43243E29B0005F787F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3231D41243E29B0005F787F /* LaunchScreen.storyboard */; };
 		D3231D4B243E2BC7005F787F /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3231D4A243E2BC7005F787F /* CardSelectionVC.swift */; };
+		D3231D4D243E2CDC005F787F /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3231D4C243E2CDC005F787F /* CWButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D3231D42243E29B0005F787F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3231D44243E29B0005F787F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3231D4A243E2BC7005F787F /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		D3231D4C243E2CDC005F787F /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D3231D3F243E29B0005F787F /* Assets.xcassets */,
 				D3231D41243E29B0005F787F /* LaunchScreen.storyboard */,
 				D3231D44243E29B0005F787F /* Info.plist */,
+				D3231D4C243E2CDC005F787F /* CWButton.swift */,
 			);
 			path = "CardWorkout-Programmatic";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				D3231D37243E29AF005F787F /* AppDelegate.swift in Sources */,
 				D3231D39243E29AF005F787F /* SceneDelegate.swift in Sources */,
 				D3231D4B243E2BC7005F787F /* CardSelectionVC.swift in Sources */,
+				D3231D4D243E2CDC005F787F /* CWButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
