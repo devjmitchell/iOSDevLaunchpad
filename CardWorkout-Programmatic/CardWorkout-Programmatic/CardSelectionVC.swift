@@ -70,6 +70,7 @@ class CardSelectionVC: UIViewController {
     
     func configureRulesButton() {
         view.addSubview(rulesButton)
+        rulesButton.addTarget(self, action: #selector(presentRulesVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             rulesButton.widthAnchor.constraint(equalToConstant: 115),
@@ -77,5 +78,10 @@ class CardSelectionVC: UIViewController {
             rulesButton.trailingAnchor.constraint(equalTo: stopButton.trailingAnchor),
             rulesButton.topAnchor.constraint(equalTo: stopButton.bottomAnchor, constant: 20)
         ])
+    }
+    
+    
+    @objc func presentRulesVC() {
+        present(RulesVC(), animated: true)
     }
 }

@@ -13,6 +13,7 @@
 		D3231D43243E29B0005F787F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3231D41243E29B0005F787F /* LaunchScreen.storyboard */; };
 		D3231D4B243E2BC7005F787F /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3231D4A243E2BC7005F787F /* CardSelectionVC.swift */; };
 		D3231D4D243E2CDC005F787F /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3231D4C243E2CDC005F787F /* CWButton.swift */; };
+		D3231D4F243E5831005F787F /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3231D4E243E5831005F787F /* RulesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3231D44243E29B0005F787F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3231D4A243E2BC7005F787F /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		D3231D4C243E2CDC005F787F /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		D3231D4E243E5831005F787F /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D3231D36243E29AF005F787F /* AppDelegate.swift */,
 				D3231D38243E29AF005F787F /* SceneDelegate.swift */,
 				D3231D4A243E2BC7005F787F /* CardSelectionVC.swift */,
+				D3231D4E243E5831005F787F /* RulesVC.swift */,
 				D3231D4C243E2CDC005F787F /* CWButton.swift */,
 				D3231D3F243E29B0005F787F /* Assets.xcassets */,
 				D3231D41243E29B0005F787F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3231D37243E29AF005F787F /* AppDelegate.swift in Sources */,
+				D3231D4F243E5831005F787F /* RulesVC.swift in Sources */,
 				D3231D39243E29AF005F787F /* SceneDelegate.swift in Sources */,
 				D3231D4B243E2BC7005F787F /* CardSelectionVC.swift in Sources */,
 				D3231D4D243E2CDC005F787F /* CWButton.swift in Sources */,
