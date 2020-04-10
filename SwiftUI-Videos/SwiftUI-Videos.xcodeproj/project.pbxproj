@@ -13,6 +13,7 @@
 		D3997AFA2440E065006C0E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3997AF92440E065006C0E83 /* Assets.xcassets */; };
 		D3997AFD2440E065006C0E83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3997AFC2440E065006C0E83 /* Preview Assets.xcassets */; };
 		D3997B002440E065006C0E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3997AFE2440E065006C0E83 /* LaunchScreen.storyboard */; };
+		D3997B082440E4E8006C0E83 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3997B072440E4E8006C0E83 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3997AFC2440E065006C0E83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3997AFF2440E065006C0E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3997B012440E065006C0E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3997B072440E4E8006C0E83 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D3997AF32440E063006C0E83 /* AppDelegate.swift */,
 				D3997AF52440E063006C0E83 /* SceneDelegate.swift */,
 				D3997AF72440E063006C0E83 /* ContentView.swift */,
+				D3997B072440E4E8006C0E83 /* Video.swift */,
 				D3997AF92440E065006C0E83 /* Assets.xcassets */,
 				D3997AFE2440E065006C0E83 /* LaunchScreen.storyboard */,
 				D3997B012440E065006C0E83 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3997AF42440E063006C0E83 /* AppDelegate.swift in Sources */,
+				D3997B082440E4E8006C0E83 /* Video.swift in Sources */,
 				D3997AF62440E063006C0E83 /* SceneDelegate.swift in Sources */,
 				D3997AF82440E063006C0E83 /* ContentView.swift in Sources */,
 			);
